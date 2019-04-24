@@ -1,19 +1,19 @@
 # gazpromspider
 
-GazpromSpider В каталоге лежит полный проект. Т.е. виртуальное окружение со всеми нужными библиотеками уже "в коробке"
+The catalog is a complete project. Those. virtual environment with all the necessary libraries already "in the box"
 
-Скачать проэкт
+Download Project(git clone https://github.com/amurakho/gazpromspider.git)
 
-Зайти в дирректорию с проэктом (cd gazpromspider)
+Go to the directory with the project (cd gazpromspider)
 
-Активировать виртуальное окружение (source venv/bin/activate)
+Activate the virtual environment (source venv / bin / activ)
 
-Зайти в нужный каталог для запуска проэкта (cd gazpromspider/gazpromspider)
+Enter the desired directory to run the project (cd gazpromspider / gazpromspider)
 
-Запустить паука, с сохранением в base.csv (scrapy crawl gazpromspider -o base.csv)
+Launch the spider, which save the base in 'base.csv' (scrapy crawl gazpromspider -o base.csv)
 
-Запустить конвектер из .csv в .xlsx (python read_csv.py)
+Run a convector from .csv to .xlsx (python read_csv.py)
 
-В файле data.xlsx хранится база
+The data.xlsx file stores the base.
 
-!!! Переменые с названиями файлов баз, вшиты в код !!!"
+!!! Variables with the names of the database files are embedded in the code !!! "
